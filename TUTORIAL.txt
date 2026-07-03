@@ -1,0 +1,69 @@
+===================================================================================
+░       ░░░░      ░░░        ░░░      ░░░  ░░░░  ░░        ░░   ░░░  ░░░      ░░
+▒  ▒▒▒▒  ▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒  ▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒    ▒▒  ▒▒  ▒▒▒▒▒▒▒
+▓       ▓▓▓  ▓▓▓▓  ▓▓▓▓▓  ▓▓▓▓▓  ▓▓▓▓▓▓▓▓        ▓▓▓▓▓  ▓▓▓▓▓  ▓  ▓  ▓▓  ▓▓▓   ▓
+█  ████████        █████  █████  ████  ██  ████  █████  █████  ██    ██  ████  █
+█  ████████  ████  █████  ██████      ███  ████  ██        ██  ███   ███      ██
+                                                                                
+░       ░░░  ░░░░  ░░       ░░░   ░░░  ░░        ░░   ░░░  ░░░      ░░          
+▒  ▒▒▒▒  ▒▒  ▒▒▒▒  ▒▒  ▒▒▒▒  ▒▒    ▒▒  ▒▒▒▒▒  ▒▒▒▒▒    ▒▒  ▒▒  ▒▒▒▒▒▒▒          
+▓       ▓▓▓  ▓▓▓▓  ▓▓       ▓▓▓  ▓  ▓  ▓▓▓▓▓  ▓▓▓▓▓  ▓  ▓  ▓▓  ▓▓▓   ▓          
+█  ████  ██  ████  ██  ███  ███  ██    █████  █████  ██    ██  ████  █          
+█       ████      ███  ████  ██  ███   ██        ██  ███   ███      ██          
+                                                                                
+░       ░░░  ░░░░░░░░░      ░░░  ░░░░  ░░        ░░   ░░░  ░░░      ░░          
+▒  ▒▒▒▒  ▒▒  ▒▒▒▒▒▒▒▒  ▒▒▒▒  ▒▒▒  ▒▒  ▒▒▒▒▒▒  ▒▒▒▒▒    ▒▒  ▒▒  ▒▒▒▒▒▒▒          
+▓       ▓▓▓  ▓▓▓▓▓▓▓▓  ▓▓▓▓  ▓▓▓▓    ▓▓▓▓▓▓▓  ▓▓▓▓▓  ▓  ▓  ▓▓  ▓▓▓   ▓          
+█  ████████  ████████        █████  ████████  █████  ██    ██  ████  █          
+█  ████████        ██  ████  █████  █████        ██  ███   ███      ██          
+===================================================================================
+
+ALL YOU NEED:
+
+DVD-/+R OR DVD+R DL (DEPENDING ON YOUR PATCHED GAME SIZE)
+USB DRIVE UNDER 1 TB (FAT32 LIMIT, CAN BE FIXED WITH BADSTORAGE)
+XBOX 360 ON LATEST DASHBOARD (2.0.17559.0)
+
+FOR DVD+R DL USERS: 
+USE ANY HIGHER QUALITY MID, YOU DONT NEED VERBATIM MKM-001/003, A (FOR EXAMPLE) RICOHJPN-D01-67 IS BETTER THEN UMEDISC.
+I TRIED WITH AMAZON BASICS (WHICH WERE UMEDISC) AND DURING HEAVY STREAMING LOADING SCREENS CRASHED THE GAME WITH A GAME ERROR (UNREADABLE DISC)
+REASON WHY IS THAT UMEDISC IS HELLA TRASH, IS THAT PEOPLE HAD ISSUE WITH THEM (PROBLEMATIC DYE, PROBLEMS BURNING LAYER 1) AND I SWITCHED TO
+OMEGA FREESTYLE WHICH ARE RICOHJPN-D01-67 AND WORK FINE. (TESTED ON FAMILY GUY: BACK TO THE MULTIVERSE)
+===================================================================================
+TUTORIAL:
+1. GRAB ANY "GAME BACKUP" OFF THE INTERNET. A REDUMP ISO IS THE BEST.
+2. PATCH YOUR USB DRIVE WITH BADUPDATE (https://www.youtube.com/watch?v=S4xyqbkK51w), AND NEVER EVER CONNECT TO XBOX LIVE. BETTER TO MAKE A SPECIAL OFFLINE ACCOUNT AND RUN UNSIGNED CODE ON THERE.
+3. IN THE PROJECT ROOT FOLDER, THERES TWO TOOLS. EXTRACT-XISO AND XEXTOOL. NOW EXTRACT THE ISO TO THE ROOT FOLDER.
+4. OPEN CMD IN THAT FOLDER AND RUN THE FOLLOWING COMMAND: extract-xiso.exe (AND THEN DRAG YOUR ISO INTO CMD, THIS SHOULD ADD A FILE PATH) PRESS ENTER.
+5. LET EXTRACT FINISH, YOU SHOULD HAVE A FOLDER. DELETE THE ISO
+6. OPEN THE FOLDER AND LOCATE A DEFAULT.XEX (AND IF OPTIONAL, OTHER XEX'ES.)
+7. COPY (ALL) XEX('ES) TO PROJECT ROOT FOLDER.
+8. RUN THE FOLLOWING COMMAND: xextool.exe -r a -m r -e u default.xex (THIS REMOVES ANY DRM, SETS IT TO RETAIL AND UNENCRYPTS THE XEX)
+   FOR OTHER XEX'ES REMOVE DEFAULT.XEX AND DRAG IN YOUR OTHER XEX('ES)
+9. COPY OVER (ALL) XEX('ES) TO THE GAME FOLDER. SELECT REPLACE ALL FILES IN FOLDER.
+10. DELETE THE $SYSTEMUPDATE FOLDER.
+
+YOU HAVE PATCHED THE GAME.
+BURNING TIME.
+
+11. DOWNLOAD AND OPEN IMG BURN, ON THE TOP SELECT "MODE" AND THEN CHOOSE READ.
+12. INSERT YOUR DISC AND LOOK AT THE DETAILS.
+    MID: RICOHJPN-D01-67 (<- THIS IS THE MID. LOOK UP ON THE INTERNET, HOW GOOD IS IT, AND CONTINUE AFTER.)
+13. GO BACK TO "TOOLS" AND SELECT "EZ-MODE PICKER". SELECT "WRITE FILES/FOLDERS TO DISC".
+14. DRAG AND DROP ALL FILES TO THE FILES PICK WINDOW. CALCULATE HOW MUCH STORAGE IS NEEDED AND HOW MUCH WILL BE.
+15. GO TO THE DEVICE TAB AND LOOK AT SUPPORTED WRITE SPEEDS. SELECT ANY OF THE SLOWEST ONES, AND CONTINUE.
+16. GO TO THE OPTIONS TAB. SELECT DATA TYPE: "MODE1/2048", FILE SYSTEM: "ISO9660 + JOLIET + UDF", UDF REVISION: "1.02". CONTINUE.
+17. NAME YOUR DISC BY GOING TO THE LABELS TAB AND ENABLE SYNCHRONIZED EDITING. I SET THE NAMES TO "XEX".
+18. ENABLE VERIFY.
+19. ENABLE OPC BY GOING TO Tools > Settings > Write. SELECT (Page 1), CHECK THE BOX WITH "Perform OPC Before Write", AND CLICK OK TO SAVE.
+20. BURN BY PRESSING THE BIG BUTTON.
+
+YOU HAVE BURNT THE GAME.
+PLAYING TIME.
+
+21. ON YOUR CONSOLE PERFORM BAD UPDATE. CONTINUE.
+22. BOOT INTO AURORA. INSERT THE DISC, AND WAIT.
+23. THE DISC SHOULD BE RECOGNIZED. OPEN THE GAME.
+24. PLAY THE GAME (WITH ANY HIGHER QUALITY DISCS THE UNRECOGNIZABLE DISC ERROR SHOULD BE BEATEN, IF IT APPEARS TRY ON A DIFFERENT MID DISC.)
+
+CONGRATS! YOU HAVE FINISHED THE TUTORIAL. THIS EXPLOIT DOES NOT NEED ANY DRIVE PATCHING, JUST PATCH THE XEX AND GO.
