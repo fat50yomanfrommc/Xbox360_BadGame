@@ -1,6 +1,9 @@
 # Xbox360_BadGame
 
 ![Project Banner](project_assets/MGSLogo.gif)
+![GitHub stars](https://img.shields.io/github/stars/SowaDarek/Xbox360_BadGame?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/SowaDarek/Xbox360_BadGame?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/SowaDarek/Xbox360_BadGame?style=for-the-badge)
 
 A repository containing the files and resources required to use **Xbox 360 BadUpdate** with a patched game disc.
 
@@ -71,7 +74,6 @@ Xbox360_BadGame/
 │
 ├── README.md
 ├── TUTORIAL.txt
-├── BadUpdate-ReadyUSB.zip
 ├── project_assets/
 │   └── MGSLogo.gif
 └── ...
