@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/last-commit/fat50yomanfrommc/Xbox360_BadGame?style=for-the-badge">
 </p>
 
-A repository containing the files and resources required to use **Xbox360BadUpdate** with a patched game disc.
+A repository containing the files and resources required to use [Xbox360BadUpdate](https://github.com/grimdoomer/Xbox360BadUpdate) with a patched game disc.
 
 > [!IMPORTANT]
 > This repository is provided for educational, archival, and homebrew purposes only.
@@ -86,11 +86,14 @@ Then follow the instructions in **TUTORIAL.txt**.
 ```text
 Xbox360_BadGame/
 │
-├── README.md
-├── TUTORIAL.txt
 ├── project_assets/
 │   └── MGSLogo.gif
-└── ...
+├── LICENSE
+├── README.md
+├── TUTORIAL.txt
+├── extract-xiso.exe
+├── x360_imports.idc
+└── xextool.exe
 ```
 
 ---
