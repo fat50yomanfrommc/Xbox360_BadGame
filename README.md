@@ -12,6 +12,12 @@ A repository containing the files and resources required to use [**Xbox360BadUpd
 
 ---
 
+## Supported MID's (for only DVD+R DL media)
+
+[❌] UMEDISC-DL1-64 - Console readable, fails on heavy streaming loading screens and throws out error
+[✅] RICOHJPN-D01-67 - Readable, no issue at all.
+---
+
 ## Features
 
 * Ready-to-use project files
