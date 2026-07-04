@@ -1,9 +1,9 @@
 # Xbox360_BadGame
 
 ![Project Banner](project_assets/MGSLogo.gif)
-![GitHub stars](https://img.shields.io/github/stars/SowaDarek/Xbox360_BadGame?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/SowaDarek/Xbox360_BadGame?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/SowaDarek/Xbox360_BadGame?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/fat50yomanfrommc/Xbox360_BadGame?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/fat50yomanfrommc/Xbox360_BadGame?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/fat50yomanfrommc/Xbox360_BadGame?style=for-the-badge)
 
 A repository containing the files and resources required to use **Xbox 360 BadUpdate** with a patched game disc.
 
@@ -60,7 +60,7 @@ A complete setup guide is included in **`TUTORIAL.txt`**.
 Clone the repository:
 
 ```bash
-git clone https://github.com/SowaDarek/Xbox360_BadGame.git
+git clone https://github.com/fat50yomanfrommc/Xbox360_BadGame.git
 ```
 
 Or download it as a ZIP from GitHub.
@@ -86,7 +86,6 @@ Xbox360_BadGame/
 Contributions are welcome.
 
 If you'd like to improve the project:
-
 1. Fork the repository.
 2. Create a feature branch.
 3. Commit your changes.
