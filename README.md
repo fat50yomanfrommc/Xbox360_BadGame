@@ -81,18 +81,6 @@ Xbox360_BadGame/
 
 ---
 
-## Screenshots
-
-Place screenshots inside the `Images` directory and reference them like this:
-
-```md
-![Main Menu](Images/menu.png)
-
-![Gameplay](Images/gameplay.png)
-```
-
----
-
 ## Contributing
 
 Contributions are welcome.
