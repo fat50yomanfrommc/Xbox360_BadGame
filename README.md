@@ -18,12 +18,12 @@ A repository containing the files and resources required to use [Xbox360BadUpdat
 
 ---
 
-## Supported MIDs (DVD+R DL)
+## Tested Discs (DVD+R DL)
 
 | MID | Status | Notes |
 |------|:-----:|-------|
-| `UMEDISC-DL1-64` | ❌ | Console can read the disc, but heavy streaming/loading screens fail. |
-| `RICOHJPN-D01-67` | ✅ | None. |
+| `Amazon Basics (UMEDISC)` | ❌ | Console can read the disc, but heavy streaming/loadings fail. |
+| `Omega Freestyle (Old Label)` | ✅ | None. Mentioned that they have fake mid and they are UMEDISC too, not sure why this works and not that. |
 
 ---
 
@@ -32,7 +32,7 @@ A repository containing the files and resources required to use [Xbox360BadUpdat
 - Ready-to-use project files
 - Step-by-step setup tutorial included
 - Compatible with the Xbox 360 BadUpdate exploit
-- Open-source and community maintained
+- Open-source and community-maintained
 
 ---
 
