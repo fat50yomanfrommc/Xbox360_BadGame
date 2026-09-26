@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/last-commit/fat50yomanfrommc/Xbox360_BadGame?style=for-the-badge">
 </p>
 
-A repository containing the files and resources required to use [Xbox360BadUpdate](https://github.com/grimdoomer/Xbox360BadUpdate) with a patched game disc.
+A repository containing the files and resources required to use [Xbox360BadUpdate](https://github.com/grimdoomer/Xbox360BadUpdate) with a patched XEX game disc.
 
 > [!IMPORTANT]
 > This repository is provided for educational, archival, and homebrew purposes only.
@@ -22,10 +22,12 @@ A repository containing the files and resources required to use [Xbox360BadUpdat
 
 | MID | Status | Notes |
 |------|:-----:|-------|
-| `Amazon Basics (UMEDISC)` | ❌ | Console can read the disc, but heavy streaming/loadings fail. |
-| `Omega Freestyle (Old Label)` | ✅ | None. Mentioned that they have fake mid and they are UMEDISC too, not sure why this works and not that. |
+| `Amazon Basics (UMEDISC)` | ❌ | Console can read the disc, but heavy streaming/loadings fail. "Game unreadable" |
+| `Omega Freestyle (w/ oldlabel)` | ✅ | None. FAKEMID RICOH is UMEDISC in this case. |
 
----
+- "Why did the UMEDISC in FAKEMID work?" The burner firmware forced the optical drive to report a specific manufacturer ID and writing strategy to the system, bypassing the disc's true physical identity. This can change burn intensity (darker, lighter), which the Xbox 360 disc drive picked up more nicely.
+
+- "Is there a way to bypass this?" If you have modified drive firmware, use ImgBurn to modify/force the strategy used and burn. If you don't want to risk your drive, buy a FAKEMID disc which is close to a more higher quality disc, and burn the files.
 
 ## Features
 
@@ -59,7 +61,7 @@ A complete setup guide is included in **[TUTORIAL.txt](TUTORIAL.txt)**.
 3. Patch the required files on your PC.
 4. Burn the patched game to a compatible DVD+R DL disc.
 5. Copy any required files to your USB storage device.
-6. Launch BadUpdate and insert the patched disc.
+6. Apply BadUpdate and insert the patched disc.
 7. Enjoy playing.
 
 > [!NOTE]
@@ -119,8 +121,8 @@ Open an issue with as much detail as possible.
 
 ## Credits
 
-- [BadUpdate exploit](https://github.com/grimdoomer/Xbox360BadUpdate) developers
-- [XEXTool](https://digiex.net/threads/xextool-6-3-download.9523/) developers
+- [BadUpdate exploit](https://github.com/grimdoomer/Xbox360BadUpdate) developer(s)
+- [XEXTool](https://digiex.net/threads/xextool-6-3-download.9523/) developer(s)
 - Xbox 360 homebrew community
 
 ---
